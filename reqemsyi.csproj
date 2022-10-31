@@ -1,0 +1,19 @@
+using System;
+
+namespace newtask
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int num = Convert.ToInt32(Console.ReadLine());
+            int say=0;
+            while (num!=0)
+            {
+                num /= 10;
+                say++;
+            }
+            Console.WriteLine(say);
+        }
+    } 
+} 
